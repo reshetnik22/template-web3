@@ -6,3 +6,5 @@
   },
   "overrides": [
     // Configuration for TypeScript files
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
