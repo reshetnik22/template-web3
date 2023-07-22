@@ -8,3 +8,5 @@
     // Configuration for TypeScript files
     {
       "files": ["**/*.ts", "**/*.tsx"],
+      "plugins": ["unused-imports", "tailwindcss", "simple-import-sort"],
+      "extends": ["plugin:tailwindcss/recommended", "next/core-web-vitals", "plugin:prettier/recommended"],
