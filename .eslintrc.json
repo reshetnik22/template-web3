@@ -34,3 +34,6 @@
         "unused-imports/no-unused-imports-ts": "error",
         "tailwindcss/classnames-order": [
           "warn",
+          {
+            "officialSorting": true
+          }
