@@ -41,3 +41,6 @@
         "sort-imports": [
           1,
           {
+            "ignoreDeclarationSort": true
+          }
+        ],
