@@ -47,3 +47,5 @@
         "import/order": [
           1,
           {
+            "groups": ["builtin", "external", "internal"],
+            "pathGroups": [
