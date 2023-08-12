@@ -49,3 +49,5 @@
           {
             "groups": ["builtin", "external", "internal"],
             "pathGroups": [
+              {
+                "pattern": "react",
