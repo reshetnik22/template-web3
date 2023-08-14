@@ -51,3 +51,5 @@
             "pathGroups": [
               {
                 "pattern": "react",
+                "group": "external",
+                "position": "before"
