@@ -56,3 +56,5 @@
               }
             ],
             "pathGroupsExcludedImportTypes": [""],
+            "newlines-between": "always",
+            "alphabetize": {
