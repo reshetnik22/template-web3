@@ -6,3 +6,6 @@
 .pnp.js
 
 # turborepo
+.turbo
+
+# testing
