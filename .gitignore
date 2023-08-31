@@ -9,3 +9,6 @@
 .turbo
 
 # testing
+/coverage
+
+# next.js
