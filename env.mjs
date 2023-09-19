@@ -8,3 +8,6 @@ export const env = createEnv({
     DATABASE_URL: z.string().url().optional(),
     // Comma separated list of Ethereum addresses, accepts optinal whitespace after comma
     APP_ADMINS: z
+      .string()
+      .regex(/^(0x[a-fA-F0-9]{40}( *, *0x[a-fA-F0-9]{40})* *)*$/)
+      .optional(),
