@@ -11,3 +11,5 @@ export const env = createEnv({
       .string()
       .regex(/^(0x[a-fA-F0-9]{40}( *, *0x[a-fA-F0-9]{40})* *)*$/)
       .optional(),
+    SITE_URL: z.string().url().optional(),
+  },
