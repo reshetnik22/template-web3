@@ -13,3 +13,5 @@ export const env = createEnv({
       .optional(),
     SITE_URL: z.string().url().optional(),
   },
+  client: {
+    NEXT_PUBLIC_USE_PUBLIC_PROVIDER: z.enum(['true', 'false']).default('true'),
