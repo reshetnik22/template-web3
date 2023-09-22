@@ -15,3 +15,4 @@ export const env = createEnv({
   },
   client: {
     NEXT_PUBLIC_USE_PUBLIC_PROVIDER: z.enum(['true', 'false']).default('true'),
+    NEXT_PUBLIC_USE_HARDHAT_PROVIDER: z.enum(['true', 'false']).default('false'),
