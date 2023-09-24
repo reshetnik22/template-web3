@@ -19,3 +19,5 @@ export const env = createEnv({
     NEXT_PUBLIC_ALCHEMY_API_KEY: z.string().min(1).optional(),
     NEXT_PUBLIC_INFURA_API_KEY: z.string().min(1).optional(),
   },
+  runtimeEnv: {
+    NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
