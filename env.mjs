@@ -22,3 +22,4 @@ export const env = createEnv({
   runtimeEnv: {
     NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
     DATABASE_URL: process.env.DATABASE_URL,
+    APP_ADMINS: process.env.APP_ADMINS,
