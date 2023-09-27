@@ -23,3 +23,4 @@ export const env = createEnv({
     NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
     DATABASE_URL: process.env.DATABASE_URL,
     APP_ADMINS: process.env.APP_ADMINS,
+    SITE_URL: process.env.SITE_URL,
