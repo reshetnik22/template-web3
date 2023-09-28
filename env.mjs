@@ -24,3 +24,4 @@ export const env = createEnv({
     DATABASE_URL: process.env.DATABASE_URL,
     APP_ADMINS: process.env.APP_ADMINS,
     SITE_URL: process.env.SITE_URL,
+    NEXT_PUBLIC_USE_PUBLIC_PROVIDER: process.env.NEXT_PUBLIC_USE_PUBLIC_PROVIDER,
