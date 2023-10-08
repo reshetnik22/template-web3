@@ -7,3 +7,5 @@ const nextConfig = {
     domains: ['avatars.githubusercontent.com', 'images.unsplash.com'],
   },
   swcMinify: true,
+  env: {
+    mode: process.env.NODE_ENV,
