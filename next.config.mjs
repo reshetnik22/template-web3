@@ -9,3 +9,5 @@ const nextConfig = {
   swcMinify: true,
   env: {
     mode: process.env.NODE_ENV,
+  },
+  experimental: {
