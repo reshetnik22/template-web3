@@ -11,3 +11,5 @@ const nextConfig = {
     mode: process.env.NODE_ENV,
   },
   experimental: {
+    appDir: true,
+    fontLoaders: [
