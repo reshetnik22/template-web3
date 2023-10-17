@@ -24,3 +24,5 @@ const nextConfig = {
       test: /\.svg$/i,
       issuer: /\.[jt]sx?$/,
       resourceQuery: /icon/,
+      use: ['@svgr/webpack'],
+    })
