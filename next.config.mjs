@@ -26,3 +26,5 @@ const nextConfig = {
       resourceQuery: /icon/,
       use: ['@svgr/webpack'],
     })
+    config.module.rules.push({
+      test: /\.svg$/i,
