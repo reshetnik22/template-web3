@@ -30,3 +30,4 @@ const nextConfig = {
       test: /\.svg$/i,
       issuer: /\.[jt]sx?$/,
       resourceQuery: { not: [/icon/] },
+      loader: 'next-image-loader',
