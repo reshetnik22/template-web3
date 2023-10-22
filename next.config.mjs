@@ -31,3 +31,5 @@ const nextConfig = {
       issuer: /\.[jt]sx?$/,
       resourceQuery: { not: [/icon/] },
       loader: 'next-image-loader',
+      options: { assetPrefix: '' },
+    })
