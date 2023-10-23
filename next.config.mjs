@@ -33,3 +33,4 @@ const nextConfig = {
       loader: 'next-image-loader',
       options: { assetPrefix: '' },
     })
+    return config
