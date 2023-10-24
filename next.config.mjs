@@ -34,3 +34,5 @@ const nextConfig = {
       options: { assetPrefix: '' },
     })
     return config
+  },
+}
