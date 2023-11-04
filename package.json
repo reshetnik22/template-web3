@@ -11,3 +11,5 @@
     "prettier": "prettier './src' --write",
     "prepare": "husky install ; prisma generate ; wagmi generate"
   },
+  "husky": {
+    "hooks": {
