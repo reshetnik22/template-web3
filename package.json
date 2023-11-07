@@ -18,3 +18,5 @@
   },
   "lint-staged": {
     "./src": [
+      "lint",
+      "prettier"
