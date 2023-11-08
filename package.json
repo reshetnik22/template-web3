@@ -20,3 +20,6 @@
     "./src": [
       "lint",
       "prettier"
+    ]
+  },
+  "engines": {
