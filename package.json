@@ -74,3 +74,5 @@
     "clsx": "^1.2.1",
     "encoding": "^0.1.13",
     "focus-trap-react": "^10.0.2",
+    "framer-motion": "^8.4.3",
+    "iron-session": "^6.3.1",
